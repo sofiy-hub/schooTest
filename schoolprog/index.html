@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>InfoSec</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Test InfoSec</h1>
+		<form id="quizForm">
+			<fieldset>
+				<legent>Личная информация:</legent>
+				<div class="form-group">
+					<div class="field"><label>Имя:</label> <input type="text" id="userName" placeholder="Введите ваше имя"></div>
+				</div>
+				<div class="form-group">
+					<div class="field"><label>Класс:</label> <input type="text" id="userClass" placeholder="Введите ваш класс"></div>
+				</div>
+			</fieldset>
+
+			<!-- question 1 -->
+			<fieldset>
+				<legend>Вопрос 1: Что такое информационная безопасность в сети Интернет?</legend>
+				<label><input type="radio" name="q1" value="correct">Защита информации от несанкционированного доступа, использования, раскрытия, разрушения или изменения</label>
+				<label><input type="radio" name="q1" value="wrong">Процесс создания новых информационных технологий</label>
+				<label><input type="radio" name="q1" value="wrong">Обучение пользователей работе с компьютерами</label>
+				<label><input type="radio" name="q1" value="wrong">Увеличение объема данных в компании</label>
+			</fieldset>
+
+			<!-- question 2 -->
+			<fieldset>
+				<legend>Вопрос 2: Какой из следующих методов является примером физической безопасности?</legend>
+				<label><input type="radio" name="q2" value="wrong">Использование антивирусного ПО</label>
+				<label><input type="radio" name="q2" value="correct">Установка видеонаблюдения в офисе</label>
+				<label><input type="radio" name="q2" value="wrong">Шифрование данных</label>
+				<label><input type="radio" name="q2" value="wrong">Регулярные обновления программного обеспечения</label>
+			</fieldset>
+
+			<!-- question 3 -->
+			<fieldset>
+				<legend>Вопрос 3: Что такое фишинг?</legend>
+				<label><input type="radio" name="q3" value="wrong">Метод шифрования данных</label>
+				<label><input type="radio" name="q3" value="correct">Способ получения личной информации через обманные электронные письма или сайты</label>
+				<label><input type="radio" name="q3" value="wrong">Программа для защиты от вирусов</label>
+				<label><input type="radio" name="q3" value="wrong">Процесс резервного копирования данных</label>
+			</fieldset>
+
+			<!-- question 4 -->
+			<fieldset>
+				<legend>Вопрос 4: Какой из следующих вариантов является хорошей практикой создания паролей?</legend>
+				<label><input type="radio" name="q4" value="wrong">Использовать простые и легко запоминающиеся слова</label>
+				<label><input type="radio" name="q4" value="correct">Использовать комбинацию букв, цифр и специальных символов</label>
+				<label><input type="radio" name="q4" value="wrong">Использовать один и тот же пароль для всех аккаунтов</label>
+				<label><input type="radio" name="q4" value="wrong">Записывать пароли на бумаге и хранить их в столе</label>
+			</fieldset>
+
+			<!-- question 5 -->
+			<fieldset>
+				<legend>Вопрос 5: Что такое вредоносное ПО (malware)?</legend>
+				<label><input type="radio" name="q5" value="wrong">Программное обеспечение, которое улучшает производительность компьютера</label>
+				<label><input type="radio" name="q5" value="correct">Программное обеспечение, предназначенное для нанесения вреда компьютеру или сети</label>
+				<label><input type="radio" name="q5" value="wrong">Антивирусная программа</label>
+				<label><input type="radio" name="q5" value="wrong">Операционная система</label>
+			</fieldset>
+
+			<!-- question 6 -->
+			<fieldset>
+				<legend>Вопрос 6: Что такое брандмауэр?</legend>
+				<label><input type="radio" name="q6" value="wrong">Программа, которая ускоряет интернет-соединение</label>
+				<label><input type="radio" name="q6" value="correct">Устройство или программа, контролирующая входящий и исходящий сетевой трафик</label>
+				<label><input type="radio" name="q6" value="wrong">Средство для шифрования данных</label>
+				<label><input type="radio" name="q6" value="wrong">Способ резервного копирования информации</label>
+			</fieldset>
+
+			<!-- question 7 -->
+			<fieldset>
+				<legend>Вопрос 7: Какой из следующих методов защиты данных является наиболее эффективным?</legend>
+				<label><input type="radio" name="q7" value="correct">Регулярное обновление ПО и систем безопасности</label>
+				<label><input type="radio" name="q7" value="wrong">Хранение всех данных на одном устройстве</label>
+				<label><input type="radio" name="q7" value="wrong">Игнорирование подозрительных электронных писем</label>
+				<label><input type="radio" name="q7" value="wrong">Использование только бесплатных программ для защиты</label>
+			</fieldset>
+
+			<!-- question 8 -->
+			<fieldset>
+				<legend>Вопрос 8: Что такое социальная инженерия?</legend>
+				<label><input type="radio" name="q8" value="wrong">Использование технологий для защиты информации</label>
+				<label><input type="radio" name="q8" value="correct">Манипуляция людьми с целью получения конфиденциальной информации</label>
+				<label><input type="radio" name="q8" value="wrong">Создание сложных паролей</label>
+				<label><input type="radio" name="q8" value="wrong">Процесс восстановления данных после потери</label>
+			</fieldset>
+
+			<!-- question 9 -->
+			<fieldset>
+				<legend>Вопрос 9: Какой из следующих факторов не является угрозой безопасности информации?</legend>
+				<label><input type="radio" name="q9" value="wrong">Вирусы и вредоносные программы</label>
+				<label><input type="radio" name="q9" value="wrong">Человеческий фактор (ошибки пользователей)</label>
+				<label><input type="radio" name="q9" value="correct">Регулярное обновление ПО</label>
+				<label><input type="radio" name="q9" value="wrong">Несанкционированный доступ к системам</label>
+			</fieldset>
+
+			<!-- question 10 -->
+			<fieldset>
+				<legend>Вопрос 10: Какой из следующих способов является наиболее безопасным для хранения паролей?</legend>
+				<label><input type="radio" name="q10" value="wrong">Хранить пароли в текстовом документе на рабочем столе</label>
+				<label><input type="radio" name="q10" value="correct">Использовать менеджер паролей для их хранения и генерации</label>
+				<label><input type="radio" name="q10" value="wrong">Записывать пароли на бумаге и хранить в кармане</label>
+				<label><input type="radio" name="q10" value="wrong">Использовать один и тот же пароль для всех учетных записей</label>
+			</fieldset>
+			<div class="button-group">
+				<button type="button" id="submitBtn">Отправить ответы</button>
+				<button type="reset">Очистить форму</button>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
